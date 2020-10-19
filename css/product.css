@@ -106,7 +106,7 @@ body {
 .specifice {
   position: absolute;
   width: 100%;
-  bottom: -80px;
+  bottom: -160px;
   background: #fff;
   padding: 10px;
   box-sizing: border-box;
@@ -135,9 +135,10 @@ label {
   font-size: 15px;
 }
 ul {
-  display: flex;
+  display: block;
   margin: 0;
   padding: 0;
+  direction: rtl;
 }
 ul li {
   list-style: none;
