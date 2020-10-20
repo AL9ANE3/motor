@@ -78,10 +78,7 @@ body {
 .mog {
   text-align: right;
 }
-.mog-img {
-  height: 574px;
-  width: 574px;
-}
+
 .not-mog {
   text-align: center;
 }
@@ -108,4 +105,12 @@ body {
   display: none;
   overflow: hidden;
   background-color: #f1f1f1;
+}
+.video {
+  margin-top: 120px;
+  text-align: center;
+}
+h3,
+p {
+  direction: rtl;
 }

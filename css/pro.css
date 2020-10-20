@@ -1,3 +1,88 @@
+body {
+  font-family: "Cairo", sans-serif;
+  margin: 0;
+  padding: 0;
+  background: white;
+}
+.start {
+  background-color: #22577a;
+
+  height: 119px;
+  width: auto;
+  margin-top: 0%;
+  margin-left: 0%;
+  margin-bottom: 0%;
+  margin-right: 0%;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: white;
+  margin: 0;
+  padding: 0;
+
+  display: flex;
+  justify-content: center;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  text-align: center;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: black;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+  text-align: center;
+}
+
+.navbar a:hover,
+.dropdown:hover .dropbtn {
+  background-color: #22577a;
+  color: white;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: #22577a;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
 /* card */
 .product {
   position: relative;
@@ -21,7 +106,7 @@
 .specifice {
   position: absolute;
   width: 100%;
-  bottom: -145px;
+  bottom: -160px;
   background: #fff;
   padding: 10px;
   box-sizing: border-box;
@@ -79,7 +164,7 @@ ul.details li {
   text-decoration: none;
   cursor: pointer;
 }
-a:hover {
+.a:hover {
   background: #22577a;
 }
 .products {
@@ -96,7 +181,23 @@ a:hover {
 h1 {
   text-align: center;
 }
-/* .more {
+.container2 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.container3 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.show {
+  display: flex;
+  justify-content: center;
   text-align: center;
-  cursor: pointer;
-} */
+  color: gray;
+}

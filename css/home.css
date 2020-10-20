@@ -6,6 +6,8 @@ body {
 .navbar {
   overflow: hidden;
   background-color: white;
+  display: flex;
+  justify-content: center;
 }
 
 .navbar a {
@@ -133,7 +135,7 @@ main {
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #fff;
+  color: #363636;
   line-height: 3.8;
   font-size: 80px;
   text-transform: uppercase;
@@ -147,7 +149,7 @@ footer {
   display: flex;
   flex-flow: row wrap;
   padding: 50px;
-  color: #ffffff;
+  color: #363636;
 }
 .footer > * {
   flex: 1 100%;
