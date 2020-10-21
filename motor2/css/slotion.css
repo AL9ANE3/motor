@@ -1,0 +1,118 @@
+body {
+  font-family: "Cairo", sans-serif;
+  margin: 0;
+  background-color: #ced4da;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: black;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+  text-align: center;
+}
+
+.navbar a:hover,
+.dropdown:hover .dropbtn {
+  background-color: #22577a;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: #22577a;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.start {
+  background-color: #22577a;
+
+  height: 119px;
+  width: auto;
+  text-align: center;
+}
+
+.collapsible {
+  background-color: #363636;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: right;
+  outline: none;
+  font-size: 26px;
+  font-family: "Cairo", sans-serif;
+}
+
+.active,
+.collapsible:hover {
+  background-color: #22577a;
+}
+
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
+.logo {
+  width: 115px;
+  margin: auto;
+}
+.mog-img {
+  width: 574px;
+  margin-left: 70px;
+  border-radius: 20%;
+}
+.mog {
+  text-align: right;
+  margin-right: 70px;
+  margin-top: 120px;
+}

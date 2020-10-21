@@ -6,14 +6,14 @@
     <title>بعض الاقتراحات </title>
  <link rel="stylesheet" href="../css/pro.css">
     <link href="https://fonts.googleapis.com/css2?family=Cairo&display=swap" rel="stylesheet">
-
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
 
     
     <!-- logo -->
     <div class="start">
-        <div><img src="/images/logo 1.png" alt=""></div>
+        <div><img width="115px" src="../images/logo 1.png" alt=""></div>
 
     </div>
          <!-- !-- navbar --> 
@@ -36,8 +36,8 @@
 <br><br><br><br><br><br><br><br><br><br><br><br>
     <!-- card -->
 <!-- 1 -->
-<h1>سيارات صالون</h1>
-             <div class="container1">
+<h1 data-aos="fade-up">سيارات صالون</h1>
+             <div data-aos="fade-up" class="container1">
              <div  class="product">
                 <div class="imgbox">
                     <img src="../images/2019_malibu_masthead_01_xs.jpg" alt="">
@@ -117,10 +117,10 @@
             <br>
             <a class="show" href="../pages/product.html">عرض المزيد</a>
             <br><br><br><br><br><br><br><br><br><br><br>
-            <h1>سيارات جيب</h1>
-            <div class="container2">
+            <h1 data-aos="fade-up">سيارات جيب</h1>
+            <div data-aos="fade-up" class="container2">
              <!-- 5 -->
-             <div  class="product">
+             <div class="product">
                 <div class="imgbox">
                     <img src="../images/tahoe 2020.webp" alt="">
                  </div>  
@@ -199,10 +199,10 @@
             <br>
             <a class="show" href="../pages/product (Jeep).html">عرض المزيد</a>
             <br><br><br><br><br><br><br><br><br><br><br>
-            <h1>سيارات وانيت</h1>
-            <div class="container3">
+            <h1 data-aos="fade-up">سيارات وانيت</h1>
+            <div data-aos="fade-up"  class="container3">
              <!-- 9 -->
-             <div  class="product">
+             <div class="product">
                 <div class="imgbox">
                     <img src="../images/gladiator 2020.png" alt="">
                  </div>  
@@ -286,6 +286,25 @@
              
 
            
-
+<!-- js -->
+<script>
+    var coll = document.getElementsByClassName("collapsible");
+    var i;
+    
+    for (i = 0; i < coll.length; i++) {
+      coll[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var content = this.nextElementSibling;
+        if (content.style.display === "block") {
+          content.style.display = "none";
+        } else {
+          content.style.display = "block";
+        }
+      });
+    }
+  
+    </script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+   <script>AOS.init({offset:100,duration:650})</script> 
 </body>
 </html>
