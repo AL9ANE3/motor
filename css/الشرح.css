@@ -83,7 +83,7 @@ body {
 .mog-img {
   width: 574px;
   margin-left: 50px;
-  border-radius: 20px;
+  border-radius: 20%;
 }
 .mog {
   text-align: right;
@@ -153,13 +153,13 @@ p {
   padding-top: 20px;
 }
 .footer .footer-content {
-  /* border: 1px solid red; */
+  border: 1px solid red;
   height: 350px;
   display: flex;
 }
 .footer .footer-content .footer-section {
   flex: 1;
-  /* border: 1px solid white; */
+  border: 1px solid white;
 }
 .footer a {
   text-decoration: none;
@@ -172,6 +172,9 @@ p {
   display: block;
 }
 li {
-  list-style-type: none;
   display: block;
+}
+p,
+h1 {
+  margin-right: 70px;
 }
