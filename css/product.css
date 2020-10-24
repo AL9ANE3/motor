@@ -162,7 +162,7 @@ ul.details li {
   text-decoration: none;
   cursor: pointer;
 }
-a:hover {
+.a:hover {
   background: #22577a;
 }
 .products {
